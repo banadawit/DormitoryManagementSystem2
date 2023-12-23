@@ -222,10 +222,7 @@ public class Admin extends PersonInfo implements AdminPage, Constants {
     }
 
     @Override
-    public void displayBuildingDetail(String name) {
-        Buildings b = new Buildings();
-        // Assuming this method needs to be completed
-    }
+
 }
 
 
