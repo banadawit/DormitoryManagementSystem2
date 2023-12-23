@@ -228,15 +228,4 @@ public class Admin extends PersonInfo implements AdminPage, Constants {
     }
 }
 
-class tyring {
-    public static void main(String[] args) throws InterruptedException, IOException {
-        Admin a = new Admin();
-        Buildings.adBuildingW();
-        Buildings.adBuildingM();
-        Buildings.createZoneTable();
-//        Dorm_Room .addRoom("dorrm");
-        DormMaterial.defualDormWithMaterial();
-        a.tringAdd();
-        a.AdminLog();
-    }
-}
+
