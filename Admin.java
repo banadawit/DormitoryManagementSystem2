@@ -16,10 +16,6 @@ interface AdminPage {
     void displayBuildingDetail(String name);
 }
 
-interface IdGenerator {
-    int generateId();
-}
-
 public class Admin extends PersonInfo implements AdminPage, Constants {
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/DORMITORY";
     private static final String USERNAME = "ayana";
